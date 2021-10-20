@@ -33,10 +33,10 @@
 ### В папке *resources* создаем отдельный файл с именем junit-platform.properties и аналогичным содержимым (работает как в gradle, так и в maven проектах):
 
 
->     junit.jupiter.execution.parallel.enabled=true<p>
->     junit.jupiter.execution.parallel.mode.default=concurrent<p>
->     junit.jupiter.execution.parallel.mode.classes.default=concurrent<p>
->     junit.jupiter.execution.parallel.config.strategy=fixed<p>
+>     junit.jupiter.execution.parallel.enabled=true
+>     junit.jupiter.execution.parallel.mode.default=concurrent
+>     junit.jupiter.execution.parallel.mode.classes.default=concurrent
+>     junit.jupiter.execution.parallel.config.strategy=fixed
 >     junit.jupiter.execution.parallel.config.fixed.parallelism=5
 
 ---
