@@ -30,7 +30,7 @@
 ## Вариант 2
 
 
-### В папке *resources* создаем отдельный файл с именем junit-platform.properties и аналогичным содержимым (работает как в gradle, так и maven проектах):
+### В папке *resources* создаем отдельный файл с именем junit-platform.properties и аналогичным содержимым (работает как в gradle, так и в maven проектах):
 
 
 >junit.jupiter.execution.parallel.enabled=true<p>
