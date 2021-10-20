@@ -7,7 +7,7 @@
 ##Вариант 1
 
 
-###Добавить в файл build.gradle task:
+###Добавить в файл сборки *build.gradle* следующую конфигурацию:
 
 
 > tasks.withType(Test) { <p>
@@ -30,7 +30,7 @@
 ##Вариант 2
 
 
-###В папке *resources* создаем отдельный файл junit-platform.properties c аналогичным содержимым:
+###В папке *resources* создаем отдельный файл с именем junit-platform.properties и аналогичным содержимым:
 
 
 >junit.jupiter.execution.parallel.enabled=true
