@@ -7,6 +7,8 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class YandexMainPage {
 
+    public static final String URL = "https://ya.ru/";
+
     private SelenideElement searchInput = $("#text");
     private SelenideElement searchBtn = $("button[type = 'submit']");
 
